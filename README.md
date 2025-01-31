@@ -1,4 +1,4 @@
-# qwen Laravel
+# qwen AI Laravel
 
 Laravel wrapper for **[qwen PHP client](https://github.com/qwen-php/qwen-php-client)** to seamless Alibaba [qwen AI](https://www.qwen.ai) API integration with Laravel applications.
 
