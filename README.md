@@ -58,7 +58,7 @@ $Qwen = app(QwenClient::class);
 $response = $Qwen
     ->query('Hello qwen, how are you ?', 'system')
     ->query('Hello qwen, my name is PHP ', 'user')
-    ->withModel("qwen-chat")
+    ->withModel("qwen-vl-max")
     ->setTemperature(1.5)
     ->run();
 
