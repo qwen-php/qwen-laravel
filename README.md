@@ -52,10 +52,10 @@ print_r("qwen API response : " . $response);
 ```php
 use QwenClient;
 
-$Qwen = app(QwenClient::class);
+$qwen = app(QwenClient::class);
 
 // Another way, with customization
-$response = $Qwen
+$response = $qwen
     ->query('Hello qwen, how are you ?', 'system')
     ->query('Hello qwen, my name is PHP ', 'user')
     ->withModel("qwen-vl-max")
